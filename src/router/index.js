@@ -12,7 +12,7 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'Home',
+    name: 'home',
     component: Home
   },
   {
@@ -26,7 +26,7 @@ const routes = [
     component: Calendar
   },
   {
-    path: '/Table',
+    path: '/table',
     name: 'table',
     component: Table
   },

@@ -23,20 +23,20 @@
           <v-icon left>mdi-home</v-icon>
           Home
         </v-btn>
-        <v-btn to="store" text>
-          <v-icon left>mdi-store</v-icon>
+        <v-btn to="tasks" text>
+          <v-icon left>mdi-format-list-bulleted-square</v-icon>
           Tasks
         </v-btn>
-        <v-btn to="cart" text>
+        <v-btn to="calendar" text>
           <v-icon left>mdi-calendar</v-icon>
           Calendar
         </v-btn>
-        <v-btn to="cart" text>
-          <v-icon>mdi-cart</v-icon>
+        <v-btn to="table" text>
+          <v-icon left>mdi-table</v-icon>
           Table
         </v-btn>
-        <v-btn to="cart" text>
-          <v-icon>mdi-cart</v-icon>
+        <v-btn to="form" text>
+          <v-icon left>mdi-clipboard</v-icon>
           Form
         </v-btn>
       </v-toolbar-items>
